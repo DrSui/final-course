@@ -1,0 +1,96 @@
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #2a2a2a;
+    padding-bottom: 1rem;
+  }
+
+h2 {
+    margin: 2rem 0 1rem;
+  }
+
+h3 {
+    margin: 1.5rem 0 1rem;
+  }
+
+h4 {
+    color: #a0a0a0;
+    margin: 1rem 0 0.5rem;
+  }
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+.checkbox-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    background: #2a2a2a;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+    cursor: pointer;
+    color: grey;
+  }
+
+.checkbox-label:hover {
+    background: #333;
+  }
+
+.checkbox-input {
+    margin-right: 0.8rem;
+    width: 1.2em;
+    height: 1.2em;
+    accent-color: #646cff;
+    cursor: pointer;
+  }
+
+.create-button {
+    background: #646cff;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin: 1rem 0;
+  }
+
+.create-button:hover {
+    background: #747bff;
+  }
+
+.output {
+    background: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin: 2rem 0;
+    font-family: monospace;
+    color: #8aff80;
+    border: 1px solid #404040;
+  }
+
+pre {
+    background: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    color: #e1e1e1;
+    tab-size: 4;
+    margin: 1.5rem 0;
+  }
+
+code {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+  }
+
