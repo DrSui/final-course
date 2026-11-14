@@ -7,8 +7,8 @@ import numpy as np
 from supabase import create_client, Client
 from main import NeuralNetwork
 
-supaKey: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZrbHRlc2hna2VmZnB1ZWJmZ3R4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM3NjY3NTEsImV4cCI6MjA1OTM0Mjc1MX0.BhSwhtkS80lyUA5tQivk6J9gwaqA8qMyOCSDAPdLzpI";
-supaUrl: str  = "https://fklteshgkeffpuebfgtx.supabase.co";
+supaKey: str = "PRIVATE KEY";
+supaUrl: str  = "PRIVATE URL";
 supabase: Client = create_client(supaUrl,supaKey)
 app = Flask(__name__)
 api = Api(app)
